@@ -11,8 +11,11 @@ const Data = () => {
                      Brown University
                 </a> and a researcher in <a href="https://visual.cs.brown.edu/" target="_blank" rel="noreferrer" >
                     Brown Visual Computing </a> and <a href="http://irl.cs.brown.edu/index.php" target="_blank" rel="noreferrer" >
-                        Brown Intelligent Robotics Lab
-                    </a>. I enjoy unleashing my creativity to innovate, 
+                        Brown Intelligent Robotics
+                    </a>. 
+            </p>
+            <p className="about__description">
+            I enjoy unleashing my creativity to innovate, 
                     as well as cooperating with people who share my passion to solve challenging problems with technology. 
             </p>
             <p className="about__description">

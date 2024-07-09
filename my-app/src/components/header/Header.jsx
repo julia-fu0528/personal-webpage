@@ -7,39 +7,39 @@ const Header = () => {
     return (
         <header className="header">
                 <nav className="nav container">
-                    <a href="index.html" className="nav__logo"> Wanjia Fu </a>
+                    {/* <a href="index.html" className="nav__logo"> Wanjia Fu </a> */}
 
                     <div className={Toggle ? "nav__menu show-menu" : 
                     "nav__menu"}>
                         <ul className="nav__list grid">
                             <li className="nav__item">
                                 <a href="#about" className="nav__link active-link">
-                                    <i className="uil uil-user nav__icon"></i> About
+                                    <i className="uil uil-user nav__icon"></i> ABOUT
                                 </a>
                             </li>
                             <li className="nav__item">
                                 <a href="#research" className="nav__link">
-                                    <i className="uil uil-research nav__icon"></i> Research
+                                    <i className="uil uil-research nav__icon"></i> RESEARCH
                                 </a>
                             </li>
                             <li className="nav__item">
                                 <a href="#experience" className="nav__link">
-                                    <i className="uil uil-experience nav__icon"></i> Experience
+                                    <i className="uil uil-experience nav__icon"></i> EXPERIENCE
                                 </a>
                             </li>
                             <li className="nav__item">
                                 <a href="#projects" className="nav__link">
-                                    <i className="uil uil-projects nav__icon"></i> Projects
+                                    <i className="uil uil-projects nav__icon"></i> PROJECTS
                                 </a>
                             </li>
                             <li className="nav__item">
                                 <a href="#education" className="nav__link">
-                                    <i className="uil uil-education nav__icon"></i> Education
+                                    <i className="uil uil-education nav__icon"></i> EDUCATION
                                 </a>
                             </li>
                             <li className="nav__item">
                                 <a href="#awards" className="nav__link">
-                                    <i className="uil uil-awards nav__icon"></i> Awards
+                                    <i className="uil uil-awards nav__icon"></i> AWARDS
                                 </a>
                             </li>
                          </ul>

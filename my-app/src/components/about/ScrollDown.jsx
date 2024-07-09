@@ -1,15 +1,14 @@
-import React from 'react'
+import React from 'react';
 
 const ScrollDown = () => {
     return (
         <div className="about__scroll">
-            <a href="#about" className="about__scroll-button 
-            button--flex">
+            <a href="#about" className="about__scroll-button button--flex">
                 <svg
                     width="32px"
-                    height="32px"
-                    class="about__scroll-mouse"
-                    viewBox="0 0 247 390"
+                    height="64px"
+                    className="about__scroll-mouse"
+                    viewBox="0 20 60 80"
                     version="1.1"
                     xmlns="http://www.w3.org/2000/svg"
                     xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -21,32 +20,28 @@ const ScrollDown = () => {
                         strokeMiterlimit: "1.5",
                     }}
                 >
-                    <path
-                        class="wheel"
-                        d="M123.359,79.77510,72.843"
-                        stype={{
-                            fill: "none",
-                            stroke: "#000",
-                            strokeWidth: "20px",
-                        }}
-                    ></path>
-                    <path
-                        id="mouse"
-                        d="M236.717,123.359C0,-62.565 -50.794,-113.359 -113.
-                        358,-113.359C-62.565,0 -113.359,50.794 -113.359,113.
-                        35910,143.237c0,62.565 50.794,113.359 113.359,113.
-                        359c62.564,0 113.358,-50.794 113.358,-113.35910,-143.
-                        237Z"
+                    <path class="mouse"
+                        d="M16,1 C24.284,1 31,7.716 31,16 L31,48 C31,56.284 24.284,63 16,63 C7.716,63 1,56.284 1,48 L1,16 C1,7.716 7.716,1 16,1 Z"
                         style={{
                             fill: "none",
-                            stroke: "#000",
-                            strokeWidth: "20px",
+                            stroke: "var(--title-color)",
+                            strokeWidth: "2",
+                        }}
+                    ></path>
+                    <path class="wheel"
+                        d="M16,8 L16,20"
+                        style={{
+                            fill: "none",
+                            stroke: "var(--title-color)",
+                            strokeWidth: "2",
                         }}
                     ></path>
                 </svg>
+                <span className="about__scroll-name">Scroll down</span>
+                <i class="uil uil-arrow-down about__scroll-arrow"></i>
             </a>
         </div>
-    )
+    );
 }
 
-export default ScrollDown
+export default ScrollDown;
