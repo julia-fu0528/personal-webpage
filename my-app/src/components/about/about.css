@@ -130,14 +130,38 @@
 
 /* For medium devices */
 @media screen and (max-width: 768px){
+    .about__content{
+        grid-template-columns: 0.5fr 3fr;
+        padding-top: 3.5rem;
+    }
+
+    .about__img{
+        order: initial;
+        justify-self: initial;
+    }
+
+    .about__data{
+        grid-column: 1/3;
+    }
+
+    .about__img{
+        box-shadow: inset 0 0 0 6px rgb(255 255 255 / 30%);
+        width: 200px;
+        height: 200px;
+    }
+    .about__scroll{
+        display: none;
+    }
+
     
 }
 
-@media screen and (max-width: 576px){
 
-}
 
 /* For small devices */
 @media screen and (max-width: 350px){
-
+    .about__img{
+        width: 180px;
+        height: 180px;
+    }
 }
