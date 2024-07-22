@@ -1,0 +1,115 @@
+.research{
+    padding-bottom: 0rem;
+}
+.research__container{
+    /* grid-template-columns: repeate(2, 1fr); */
+    align-items: center;
+    column-gap: 4rem;
+}
+
+.research__img{
+    /* width: 350px; */
+    border-radius: 1.5rem;
+    justify-self: center;
+    /* padding-top: 1rem; */
+}
+
+.research_info{
+    grid-template-columns: repeate(3, 140px);
+    gap: 0.5rem;
+    margin-bottom: var(--mb-2);
+}
+
+.research__box{
+    background-color: var(--container-bolor);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.75rem;
+    /* text-align: left; */
+    padding: 2rem 1.25rem;
+}
+
+.section__title{
+    font-size: var(--h1-font-size);
+    text-align: center;
+    padding-bottom: 0.5rem;
+}
+
+.research__title{
+    font-size: var(--h2-font-size);
+    /* font-weight: var(--font-medium); */
+}
+.research__topic{
+    display: flex;
+}
+.research__date{
+    padding-left: 1.5rem;
+    /* margin-right: 0rem; */
+    font-size: var(--h4-font-size);
+}
+#irl{
+    padding-left: 8.5rem;
+}
+.research__subtitle{
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-medium);
+}
+.research__topic, .research__subtitle, .research__subheading{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.research__subheading{
+    font-size: var(--h4-font-size);
+    font-weight: var(--font-bold);
+    padding-top: 0.5rem;
+}
+.research__description{
+    padding: 0 4rem 0 0;
+    margin-bottom: var(--mb-2-5);
+    font-size: var(--h4-font-size);
+}
+
+
+/* ========== BREAKPOINTS ========== */
+/* For large devices */
+@media screen and (max-width: 1092px){
+    .research__container{
+        grid-template-columns: 1fr;
+        row-gap: 2.5rem;
+    }
+
+    /* .research__img{
+        width: 220px;
+    } */
+    .research__box{
+        padding: 0.75rem 0.5rem;
+    }
+    /* .research__data{
+        text-align: center;
+    } */
+    .research__info{
+        justify-content: center;
+    }
+    .research__description{
+        padding: 0 5rem;
+        margin-bottom: 2rem;
+    }
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px){
+    .research__info{
+        grid-template-columns: 1fr;
+    }
+    .research__description{
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 576px){
+}
+
+/* For small devices */
+@media screen and (max-width: 350px){
+    .research__info{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
