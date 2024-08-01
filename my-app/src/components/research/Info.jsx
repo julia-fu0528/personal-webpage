@@ -40,6 +40,9 @@ const Info = () => {
                 </div>
                 <div className="research__description">
                     <li>
+                        Incorporated Segment-Anything model to segment images of mugs into cup and handle and back projected the segmentation into point clouds. 
+                    </li>
+                    <li>
                         Learned latent space representations of the shape of object parts
                     </li>
                     <li>

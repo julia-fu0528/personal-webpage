@@ -1,18 +1,18 @@
 import React from 'react'
+import './projects.css'
+import Content from './Content'
 
 const Projects = () => {
     return (
         <section className="projects section" id="projects">
             <h2 className="section__title">Projects</h2>
-            <span className="section__subtitle">Some of my projects</span>
+            {/* <span className="section__subtitle">Brown Interactive 3D Vision & Learning Lab</span> */}
+
 
             <div className="projects__container container grid">
-                <div className="projects__content">
-                    <h3 className="projects__title">Project 1</h3>
-                </div>
+                <Content />
             </div>
         </section>
     )
 }
-
-export default Projects
+export default Projects;

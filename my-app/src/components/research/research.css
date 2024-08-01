@@ -1,17 +1,23 @@
 .research{
     padding-bottom: 0rem;
 }
-.research__container{
-    /* grid-template-columns: repeate(2, 1fr); */
+/* .research__container{
     align-items: center;
     column-gap: 4rem;
+} */
+.research__container {
+    width: 100%;
+    max-width: 1200px; /* Adjust this value as needed */
+    margin: 0 auto; /* Centers the container */
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    /* column-gap: 4rem; */ /* Remove or comment out this line */
 }
 
 .research__img{
-    /* width: 350px; */
     border-radius: 1.5rem;
     justify-self: center;
-    /* padding-top: 1rem; */
 }
 
 .research_info{
@@ -29,6 +35,7 @@
 }
 
 .section__title{
+    color: rgb(54, 41, 81);
     font-size: var(--h1-font-size);
     text-align: center;
     padding-bottom: 0.5rem;
@@ -40,26 +47,34 @@
 }
 .research__topic{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Merriweather', serif;
 }
 .research__date{
-    padding-left: 1.5rem;
-    /* margin-right: 0rem; */
+    margin-left: auto;
     font-size: var(--h4-font-size);
+    color: rgb(142, 114, 203);
 }
 #irl{
     padding-left: 8.5rem;
 }
 .research__subtitle{
+    color: rgb(73, 12, 205);
     font-size: var(--h3-font-size);
     font-weight: var(--font-medium);
+    font-family: 'Merriweather', serif;
 }
-.research__topic, .research__subtitle, .research__subheading{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.research__subtitle:hover{
+    color: rgb(101, 75, 152);
+    font-weight: 510;
 }
+
 .research__subheading{
     font-size: var(--h4-font-size);
     font-weight: var(--font-bold);
     padding-top: 0.5rem;
+    font-family:  'Abril Fatface', cursive;
 }
 .research__description{
     padding: 0 4rem 0 0;
