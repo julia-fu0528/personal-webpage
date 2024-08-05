@@ -45,7 +45,7 @@
 }
 
 .about__description{
-    font-size: var(--h4-font-size);
+    font-size: 1.5rem;
     font-weight: var(--font-bold);
     max-width: 500px;
     margin-bottom: var(--mb-1);
