@@ -7,8 +7,15 @@
     padding-top: 5.5rem;
     column-gap: 2rem;
     align-items: center;
+    color: black;
 }
-
+.is__link{
+    color:rgb(73, 12, 205);
+}
+.is__link:hover{
+    color: rgb(101, 75, 152);
+    font-weight: 610;
+}
 .about__social{
     margin-top: 4rem;
     display: grid;

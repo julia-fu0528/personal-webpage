@@ -1,11 +1,8 @@
-.research{
+.education {
     padding-bottom: 0rem;
+    margin-bottom: 0;
 }
-/* .research__container{
-    align-items: center;
-    column-gap: 4rem;
-} */
-.research__container {
+.education__container {
     width: 100%;
     max-width: 1200px; /* Adjust this value as needed */
     margin: 0 auto; /* Centers the container */
@@ -15,18 +12,20 @@
     /* column-gap: 4rem; */ /* Remove or comment out this line */
 }
 
-.research__img{
+.education__img{
+    /* width: 350px; */
     border-radius: 1.5rem;
     justify-self: center;
+    /* padding-top: 1rem; */
 }
 
-.research_info{
+.education_info{
     grid-template-columns: repeate(3, 140px);
     gap: 0.5rem;
     margin-bottom: var(--mb-2);
 }
 
-.research__box{
+.education__box{
     background-color: var(--container-bolor);
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 0.75rem;
@@ -35,78 +34,83 @@
 }
 
 .section__title{
-    color: rgb(54, 41, 81);
     font-size: var(--h1-font-size);
     text-align: center;
     padding-bottom: 0.5rem;
 }
 
-.research__title{
+.education__title{
     font-size: var(--h2-font-size);
     font-weight: var(--font-bold);
 }
-.research__topic{
+.education__topic {
     display: flex;
     justify-content: space-between;
     align-items: center;
     /* font-family: 'Merriweather', serif; */
 }
-.research__date{
+.education__date {
+    /* padding-left: 5.5rem; Remove this */
     margin-left: auto;
     font-size: var(--h4-font-size);
-    font-family: 'Merriweather', serif;
     color: rgb(142, 114, 203);
+    font-family: 'Merriweather', serif;
 }
-#irl{
-    padding-left: 8.5rem;
+#uta{
+    padding-left: 23rem;
 }
-.research__subtitle{
+.education__subtitle{
+    margin-left: 2rem;
     color: rgb(73, 12, 205);
-    font-size: var(--h3-font-size);
+    font-size: var(--h4-font-size);
     font-weight: var(--font-medium);
     font-family: 'Merriweather', serif;
 }
-.research__subtitle:hover{
-    color: rgb(101, 75, 152);
-    font-weight: 510;
+.inner__list{
+    padding-left: 2rem;
 }
-
-.research__subheading{
+.inner__list2{
+    padding-left: 4rem;
+}
+.activities{
+    font-weight: var(--font-semi-bold);
+}
+.education__subheading{
     font-size: var(--h4-font-size);
     font-weight: var(--font-bold);
     padding-top: 0.5rem;
-    font-family:  'Abril Fatface', cursive;
+    font-family:  'Abril Fatface';
 }
-.research__description{
+.list__heading{
+    font-family:  'Abril Fatface', cursive;
+    color: rgb(48, 7, 136);
+    font-weight: var(--font-semi-bold);
+}
+.education__description {
     padding: 0 4rem 0 0;
-    margin-bottom: var(--mb-2-5);
+    margin-bottom: 0; /* Changed from var(--mb-2-5) to 0 */
     font-size: var(--h4-font-size);
     font-family: 'Merriweather', serif;
     color: black;
 }
 
 
+
 /* ========== BREAKPOINTS ========== */
 /* For large devices */
 @media screen and (max-width: 1092px){
-    .research__container{
+    .education__container{
         grid-template-columns: 1fr;
         row-gap: 2.5rem;
     }
 
-    /* .research__img{
-        width: 220px;
-    } */
-    .research__box{
+    .education__box{
         padding: 0.75rem 0.5rem;
     }
-    /* .research__data{
-        text-align: center;
-    } */
-    .research__info{
+    .education__info{
         justify-content: center;
     }
-    .research__description{
+    .education__description{
         padding: 0 5rem;
         margin-bottom: 2rem;
     }
@@ -114,10 +118,10 @@
 
 /* For medium devices */
 @media screen and (max-width: 768px){
-    .research__info{
+    .education__info{
         grid-template-columns: 1fr;
     }
-    .research__description{
+    .education__description{
         padding: 0;
     }
 }
@@ -127,7 +131,7 @@
 
 /* For small devices */
 @media screen and (max-width: 350px){
-    .research__info{
+    .education__info{
         grid-template-columns: repeat(2, 1fr);
     }
 }

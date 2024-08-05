@@ -8,10 +8,10 @@ const Data = () => {
             </h1>
             <h3 className="about__subtitle"> wanjia_fu@brown.edu</h3>
             <p className="about__description">
-                I am a Computer Science and Mathematics student at <a href="https://www.brown.edu/" target="_blank" rel="noreferrer" >
+                I am a Computer Science and Mathematics student at <a href="https://www.brown.edu/" target="_blank" rel="noreferrer" className="is__link">
                      Brown University
-                </a> and a researcher in <a href="https://visual.cs.brown.edu/" target="_blank" rel="noreferrer" >
-                    Brown Visual Computing </a> and <a href="http://irl.cs.brown.edu/index.php" target="_blank" rel="noreferrer" >
+                </a> and a researcher in <a href="https://visual.cs.brown.edu/" target="_blank" rel="noreferrer" className="is__link">
+                    Brown Visual Computing </a> and <a href="http://irl.cs.brown.edu/index.php" target="_blank" rel="noreferrer" className="is__link">
                         Brown Intelligent Robotics
                     </a>. 
             </p>

@@ -5,6 +5,8 @@ import About from './components/about/About';
 import Research from './components/research/Research';
 import Experience from './components/experience/Experience';
 import Projects from './components/projects/Projects';
+import Education from './components/education/Education';
+import Skills from './components/skills/Skills';
 
 const App = () => {
     return (
@@ -16,6 +18,8 @@ const App = () => {
             <Research />
             <Experience />
             <Projects />
+            <Education />
+            <Skills />
         </main>
         </>
     )

@@ -1,6 +1,10 @@
 import React from 'react';
 import TutorialImg from "../../assets/tutorial.png";
 import RlImg from "../../assets/rl.png";
+import GraphicsImg from "../../assets/graphics.png";
+import DlImg from "../../assets/dl.png";
+import CvImg from "../../assets/cv.png";
+import SweImg from "../../assets/swe.png";
 
 const Content = () => {
     return (
@@ -16,7 +20,7 @@ const Content = () => {
                     </div>
                     <span className="projects__date">June 2023 - August 2023</span>
                 </div>
-                <a className="projects__subtitle" href="https://browncsci1430.github.io/resources/cameras_vision_vs_graphics_demo/"
+                <a className="projects__subtitle has__link" href="https://browncsci1430.github.io/resources/cameras_vision_vs_graphics_demo/"
                 target="_blank" rel="noreferrer">Pinhole Camera Models in Computer Vision vs. Computer Graphics</a>
                 <div>
                     <a className="projects__subheading">Javascript, Three.js, HTML</a>
@@ -40,9 +44,13 @@ const Content = () => {
                         className="projects__social-icon" target="_blank">
                         <i class="uil uil-github"></i>
                         </a>
+                        <a href="https://www.overleaf.com/read/njtpvvfbvmzt#889585" 
+                        className="projects__social-icon" target="_blank">
+                        <i class="uil uil-file-alt"></i>
+                        </a>
                     </div>
                 </div>
-                <a className="projects__subtitle" href="https://www.overleaf.com/read/njtpvvfbvmzt#889585"
+                <a className="projects__subtitle has__link" href="https://www.overleaf.com/read/njtpvvfbvmzt#889585"
                 target="_blank" rel="noreferrer">TOLD-ZERO: Generalize TD-MPC2 to discrete action spaces</a>
                 <div>
                     <a className="projects__subheading">Jax, Gymnasium, Python</a>
@@ -52,24 +60,128 @@ const Content = () => {
                         Integrate Monte Carlo Tree Search (MCTS) into learning based on Task-Oriented Latent Dynamics (TOLD) model.
                     </li>
                     <li>
-                        Benchmark TD-MPC2 (Temporal Difference Model Predictive Control) on tasks with continuous action spaces. 
+                        Benchmark TD-MPC2 (Temporal Difference Model Predictive Control) on tasks with continuous action spaces using LightZero framework, and generalize TD-MPC2 to discrete action spaces. 
                     </li>
-                    <li>Graded and attended TA Hours and ED Hours for projects on image filtering, feature matching, camera geometry, scene 
-                    classification, convolutional neural network, and a computer vision final project</li>
+                    <li>
+                    Analyze the role of planning in model-based reinforcement learning (MBRL), including the Model Predictive Path Integral (MPPI). 
+                    </li>
                     <img src={RlImg} alt="" className="projects__img" />
                 </div>
             </div>
             <div className="projects__box">
                 <div className="projects__topic">
-                    <h3 className="projects__title">Head Teaching Assistant</h3>
-                    <span className="projects__date" id="uta">Sep 2024 - Dec 2024</span>
+                    <h3 className="projects__title"> COMPUTER GRAPHICS</h3>
+                    <div className="projects__social">
+                        <a href="https://github.com/YixiangSun/2023-CSCI1230-final-project" 
+                        className="projects__social-icon" target="_blank">
+                        <i class="uil uil-github"></i>
+                        </a>
+                        <a href="https://www.youtube.com/watch?v=prmrjpensuo" 
+                        className="projects__social-icon" target="_blank">
+                        <i class="uil uil-video"></i>
+                        </a>
+                    </div>
                 </div>
-                <a className="projects__subtitle" href="https://browncsci1430.github.io/index.html" 
-                    target="_blank" rel="noreferrer">Brown University CSCI1430: Computer Vision</a>
+                <a className="projects__subtitle has__link" href="https://www.youtube.com/watch?v=prmrjpensuo" 
+                    target="_blank" rel="noreferrer">Interactive Ball, Particle System, Camp Scene</a>
+                <div>
+                    <a className="projects__subheading">OpenGL, Blender, C++, C</a>
+                </div>
                 <div className="projects__description">
-                    <li>Work as one of the two head teaching assistants for the class CSCI 1430 Computer Vision</li>
-                    <li>In addition to usual teaching assistant work, organize fellow ten undergraduate teaching assistants, directly help manage and 
-                    develop the course with professor Dr. Srinath Sridhar, and host weekly grading/staff meetings</li>
+                    <li>
+                        Generate fire particles that appear, rise, and disappear while changing color as flames in between rock and stick primitives. 
+                    </li>
+                    <li>
+                        Create a ball that can change in material, glow when it touches the fire, catch fire or steam in smoke according to its material, extinguish the smoke after it touches the water, and put out fire.
+                    </li>
+                    <li>
+                        Create dynamic water primitive with randomized heights.
+                    </li>
+                    <li>
+                        Construct camp scene using Blender which contains collision system with the ball. 
+                    </li>
+                    <img src={GraphicsImg} alt="" className="projects__img" />
+                </div>
+            </div>
+            <div className="projects__box">
+                <div className="projects__topic">
+                    <h3 className="projects__title"> STABLE DIFFUSION</h3>
+                    <div className="projects__social">
+                        <a href="https://github.com/julia-fu0528/3Dfusion" 
+                        className="projects__social-icon" target="_blank">
+                        <i class="uil uil-github"></i>
+                        </a>
+                    </div>
+                </div>
+                <a className="projects__subtitle has__link" href="https://devpost.com/software/3dfusion?ref_content=user-portfolioref_feature=in_progress" 
+                    target="_blank" rel="noreferrer">Text-to-Image Generation using Stable Diffusion</a>
+                <div>
+                    <a className="projects__subheading">Tensorflow, Python</a>
+                </div>
+                <div className="projects__description">
+                    <li>
+                        Implemented image generation with tensorflow by training and testing on Fashion MNIST datset. 
+                    </li>
+                    <li>
+                        Achieved lower average loss than the original paper implemented in Pytorch. 
+                    </li>
+                    <img src={DlImg} alt="" className="projects__img" />
+                </div>
+            </div>
+            <div className="projects__box">
+                <div className="projects__topic">
+                    <h3 className="projects__title"> IMAGE COLORIZATION</h3>
+                    <div className="projects__social">
+                        <a href="https://github.com/zguo47/CS1430-Final-Project" 
+                        className="projects__social-icon" target="_blank">
+                        <i class="uil uil-github"></i>
+                        </a>
+                    </div>
+                </div>
+                <a className="projects__subtitle has__link" href="https://github.com/zguo47/CS1430-Final-Project" 
+                    target="_blank" rel="noreferrer">U-Net, Deep CNN, and Conditional GAN for Auto-Colorization</a>
+                <div>
+                    <a className="projects__subheading">Pytorch, Python</a>
+                </div>
+                <div className="projects__description">
+                    <li>
+                        Implement image auto-colorization using UNet, Conditional GAN (Generative Adversarial Network) and Deep-Koalarization to compare these three models and their performance on the same two datsets. 
+                    </li>
+                    <li>
+                        The patches of white in the images and the uneven distribution of colors in the ground-truth images might be the cause of ineffective auto-colorization. 
+                    </li>
+                    <li>
+                        Replaced the generator in Conditional GAN with our trained UNet to improve performance.
+                    </li>
+                    <img src={CvImg} alt="" className="projects__img" />
+                </div>
+            </div>
+            <div className="projects__box">
+                <div className="projects__topic">
+                    <h3 className="projects__title"> SOULFOOD</h3>
+                    <div className="projects__social">
+                        <a href="https://github.com/cs0320-s2023/soulfood" 
+                        className="projects__social-icon" target="_blank">
+                        <i class="uil uil-github"></i>
+                        </a>
+                    </div>
+                </div>
+                <a className="projects__subtitle has__link" href="https://github.com/cs0320-s2023/soulfood"
+                    target="_blank" rel="noreferrer">Restaurant Recommendationg WebApp with Blog Posting Functionality</a>
+                <div>
+                    <a className="projects__subheading">Figma, Firebase, Flask, React, Python</a>
+                </div>
+                <div className="projects__description">
+                    <li>
+                        Build WebApp that recommends restaurants based on the location, cuisine, style, or other labels that the user inputs. 
+                    </li>
+                    <li>
+                        Allows users to post blogs about their experience and recommendation, as well as for other users to like, collect, or follow them. 
+                    </li>
+                    <li>
+                        Mock data in the backend which includes user id, post id, restaurant label, and user reviews. 
+                    </li>
+                    <img src={SweImg} alt="" className="projects__img" />
                 </div>
             </div>
         </div>
