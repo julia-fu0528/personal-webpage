@@ -6,12 +6,12 @@ const Content = () => {
             <div className="education__box">
                 <div className="education__topic">
                     <h3 className="education__title"> BROWN UNIVERSITY</h3>
-                    <a className="education__subtitle" 
-                target="_blank" rel="noreferrer">Providence, RI</a>
+                    <span className="education__subtitle" 
+                target="_blank" rel="noreferrer">Providence, RI</span>
                     <span className="education__date"> Sep 2022 - May 2026</span>
                 </div>
                 <div>
-                    <a className="education__subheading">Sc.B. Computer Science; A.B. Mathematics</a>
+                    <span className="education__subheading">Sc.B. Computer Science; A.B. Mathematics</span>
                 </div>
                 <div className="education__description">
                     <li>
@@ -65,12 +65,12 @@ const Content = () => {
             <div className="education__box">
             <div className="education__topic">
                     <h3 className="education__title"> SHANGHAI FOREIGN LANGUAGE SCHOOL</h3>
-                    <a className="education__subtitle" 
-                target="_blank" rel="noreferrer">Shanghai, China</a>
+                    <span className="education__subtitle" 
+                target="_blank" rel="noreferrer">Shanghai, China</span>
                     <span className="education__date"> Sep 2019 - June 2022</span>
                 </div>
                 <div>
-                    <a className="education__subheading"> High School Diploma</a>
+                    <span className="education__subheading"> High School Diploma</span>
                 </div>
                 <div className="education__description">
                     <li>

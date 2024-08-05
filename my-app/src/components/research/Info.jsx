@@ -13,7 +13,7 @@ const Info = () => {
                 <a className="research__subtitle" href="https://ivl.cs.brown.edu/"
                 target="_blank" rel="noreferrer">Brown Interactive 3D Vision & Learning Lab</a>
                 <div>
-                    <a className="research__subheading">Advisors: Srinath Sridhar, Krishna Murthy Jatavallabhula</a>
+                    <span className="research__subheading">Advisors: Srinath Sridhar, Krishna Murthy Jatavallabhula</span>
                 </div>
                 <div className="research__description">
                     <li>
@@ -36,7 +36,7 @@ const Info = () => {
                 <a className="research__subtitle" href="http://irl.cs.brown.edu/"
                 target="_blank" rel="noreferrer">Brown Intelligent Robotics Lab</a>
                 <div>
-                    <a className="research__subheading">Advisor: George Konidaris</a>
+                    <span className="research__subheading">Advisor: George Konidaris</span>
                 </div>
                 <div className="research__description">
                     <li>

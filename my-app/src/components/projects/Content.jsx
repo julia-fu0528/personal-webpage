@@ -23,7 +23,7 @@ const Content = () => {
                 <a className="projects__subtitle has__link" href="https://browncsci1430.github.io/resources/cameras_vision_vs_graphics_demo/"
                 target="_blank" rel="noreferrer">Pinhole Camera Models in Computer Vision vs. Computer Graphics</a>
                 <div>
-                    <a className="projects__subheading">Javascript, Three.js, HTML</a>
+                    <span className="projects__subheading">Javascript, Three.js, HTML</span>
                 </div>
                 <div className="projects__description">
                     <li>
@@ -53,7 +53,7 @@ const Content = () => {
                 <a className="projects__subtitle has__link" href="https://www.overleaf.com/read/njtpvvfbvmzt#889585"
                 target="_blank" rel="noreferrer">TOLD-ZERO: Generalize TD-MPC2 to discrete action spaces</a>
                 <div>
-                    <a className="projects__subheading">Jax, Gymnasium, Python</a>
+                    <span className="projects__subheading">Jax, Gymnasium, Python</span>
                 </div>
                 <div className="projects__description">
                     <li>
@@ -85,7 +85,7 @@ const Content = () => {
                 <a className="projects__subtitle has__link" href="https://www.youtube.com/watch?v=prmrjpensuo" 
                     target="_blank" rel="noreferrer">Interactive Ball, Particle System, Camp Scene</a>
                 <div>
-                    <a className="projects__subheading">OpenGL, Blender, C++, C</a>
+                    <span className="projects__subheading">OpenGL, Blender, C++, C</span>
                 </div>
                 <div className="projects__description">
                     <li>
@@ -116,7 +116,7 @@ const Content = () => {
                 <a className="projects__subtitle has__link" href="https://devpost.com/software/3dfusion?ref_content=user-portfolioref_feature=in_progress" 
                     target="_blank" rel="noreferrer">Text-to-Image Generation using Stable Diffusion</a>
                 <div>
-                    <a className="projects__subheading">Tensorflow, Python</a>
+                    <span className="projects__subheading">Tensorflow, Python</span>
                 </div>
                 <div className="projects__description">
                     <li>
@@ -141,7 +141,7 @@ const Content = () => {
                 <a className="projects__subtitle has__link" href="https://github.com/zguo47/CS1430-Final-Project" 
                     target="_blank" rel="noreferrer">U-Net, Deep CNN, and Conditional GAN for Auto-Colorization</a>
                 <div>
-                    <a className="projects__subheading">Pytorch, Python</a>
+                    <span className="projects__subheading">Pytorch, Python</span>
                 </div>
                 <div className="projects__description">
                     <li>
@@ -169,7 +169,7 @@ const Content = () => {
                 <a className="projects__subtitle has__link" href="https://github.com/cs0320-s2023/soulfood"
                     target="_blank" rel="noreferrer">Restaurant Recommendationg WebApp with Blog Posting Functionality</a>
                 <div>
-                    <a className="projects__subheading">Figma, Firebase, Flask, React, Python</a>
+                    <span className="projects__subheading">Figma, Firebase, Flask, React, Python</span>
                 </div>
                 <div className="projects__description">
                     <li>

@@ -11,7 +11,7 @@ const Content = () => {
                 <a className="experience__subtitle" href="https://www.hydsoft.com/en/"
                 target="_blank" rel="noreferrer">Hydsoft Technology Co., Ltd.</a>
                 <div>
-                    <a className="experience__subheading">Software Technology Outsourcing Services Company</a>
+                    <span className="experience__subheading">Software Technology Outsourcing Services Company</span>
                 </div>
                 <div className="experience__description">
                     <li>Designed AI customer service based on Baidu UNIT intelligent conversation platform and Natural Language Processing</li>
