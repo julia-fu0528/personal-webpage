@@ -14,7 +14,7 @@ const Content = () => {
                     <h3 className="projects__title"> COMPUTER VISION COURSE DEVELOPMENT</h3>
                     <div className="projects__social">
                         <a href="https://github.com/julia-fu0528/demo" 
-                        className="projects__social-icon" target="_blank">
+                        className="projects__social-icon" rel="noreferrer" target="_blank">
                         <i class="uil uil-github"></i>
                         </a>
                     </div>
@@ -41,11 +41,11 @@ const Content = () => {
                     <h3 className="projects__title">MODEL BASED REINFORCEMENT LEARNING</h3>
                     <div className="projects__social">
                         <a href="https://github.com/Arnie-He/TOLD_ZERO" 
-                        className="projects__social-icon" target="_blank">
+                        className="projects__social-icon" rel="noreferrer" target="_blank">
                         <i class="uil uil-github"></i>
                         </a>
                         <a href="https://www.overleaf.com/read/njtpvvfbvmzt#889585" 
-                        className="projects__social-icon" target="_blank">
+                        className="projects__social-icon" rel="noreferrer" target="_blank">
                         <i class="uil uil-file-alt"></i>
                         </a>
                     </div>
@@ -73,11 +73,11 @@ const Content = () => {
                     <h3 className="projects__title"> COMPUTER GRAPHICS</h3>
                     <div className="projects__social">
                         <a href="https://github.com/YixiangSun/2023-CSCI1230-final-project" 
-                        className="projects__social-icon" target="_blank">
+                        className="projects__social-icon" rel="noreferrer" target="_blank">
                         <i class="uil uil-github"></i>
                         </a>
                         <a href="https://www.youtube.com/watch?v=prmrjpensuo" 
-                        className="projects__social-icon" target="_blank">
+                        className="projects__social-icon" rel="noreferrer" target="_blank">
                         <i class="uil uil-video"></i>
                         </a>
                     </div>
@@ -108,7 +108,7 @@ const Content = () => {
                     <h3 className="projects__title"> STABLE DIFFUSION</h3>
                     <div className="projects__social">
                         <a href="https://github.com/julia-fu0528/3Dfusion" 
-                        className="projects__social-icon" target="_blank">
+                        className="projects__social-icon" rel="noreferrer" target="_blank">
                         <i class="uil uil-github"></i>
                         </a>
                     </div>
@@ -133,7 +133,7 @@ const Content = () => {
                     <h3 className="projects__title"> IMAGE COLORIZATION</h3>
                     <div className="projects__social">
                         <a href="https://github.com/zguo47/CS1430-Final-Project" 
-                        className="projects__social-icon" target="_blank">
+                        className="projects__social-icon" rel="noreferrer" target="_blank">
                         <i class="uil uil-github"></i>
                         </a>
                     </div>
@@ -161,7 +161,7 @@ const Content = () => {
                     <h3 className="projects__title"> SOULFOOD</h3>
                     <div className="projects__social">
                         <a href="https://github.com/cs0320-s2023/soulfood" 
-                        className="projects__social-icon" target="_blank">
+                        className="projects__social-icon" rel="noreferrer" target="_blank">
                         <i class="uil uil-github"></i>
                         </a>
                     </div>
