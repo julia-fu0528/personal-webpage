@@ -4,7 +4,7 @@
 }
 .skills__container {
     width: 100%;
-    max-width: 1200px; /* Adjust this value as needed */
+    max-width: 900px; /* Adjust this value as needed */
     margin: 0 auto; /* Centers the container */
     align-items: center;
     padding-left: 1rem;
