@@ -6,7 +6,7 @@ const Content = () => {
             <div className="experience__box">
                 <div className="experience__topic">
                     <h3 className="experience__title"> Intelligent Customer Service Product Operation Engineer Intern</h3>
-                    <span className="experience__date">May 2023 - June 2023</span>
+                    <span className="experience__date">May - June 2023</span>
                 </div>
                 <a className="experience__subtitle" href="https://www.hydsoft.com/en/"
                 target="_blank" rel="noreferrer">Hydsoft Technology Co., Ltd.</a>
@@ -23,7 +23,7 @@ const Content = () => {
             <div className="experience__box">
                 <div className="experience__topic">
                     <h3 className="experience__title">Undergraduate Teaching Assistant</h3>
-                    <span className="experience__date" id="uta">Jan 2024 - May 2024</span>
+                    <span className="experience__date" id="uta">Jan - May 2024</span>
                 </div>
                 <a className="experience__subtitle" href="https://browncsci1430.github.io/index.html" 
                     target="_blank" rel="noreferrer">Brown University CSCI 1430: Computer Vision</a>
@@ -38,7 +38,7 @@ const Content = () => {
             <div className="experience__box">
                 <div className="experience__topic">
                     <h3 className="experience__title">Head Teaching Assistant</h3>
-                    <span className="experience__date" id="uta">Sep 2024 - Dec 2024</span>
+                    <span className="experience__date" id="uta">Sep - Dec 2024</span>
                 </div>
                 <a className="experience__subtitle" href="https://browncsci1430.github.io/index.html" 
                     target="_blank" rel="noreferrer">Brown University CSCI 1430: Computer Vision</a>
