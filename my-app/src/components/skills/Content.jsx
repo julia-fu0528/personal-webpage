@@ -8,7 +8,10 @@ const Content = () => {
                 <div className="skills__description">
                     <li>
                         <span className="list__heading"> Technical Skills: </span>
-                        <li className="inner__list"> Python, Java, C++, C, HTML, CSS, Javascript, Typescript, React, WebGL, OpenGL, Pyret, Racket </li>
+                        <li className="inner__list"> Expert: Python </li>
+                        <li className="inner__list"> Proficient: HTML, CSS </li>
+                        <li className="inner__list"> Fluent: Java, C++, Typescript, Javascript, WebGL, OpenGL, React </li>
+                        <li className="inner__list"> Prior Experience: C, Pyret, Racket </li>
                     </li>
                     <li>
                         <span className="list__heading"> Language: </span>
