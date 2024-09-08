@@ -167,7 +167,7 @@ const Content = () => {
                     </div>
                 </div>
                 <a className="projects__subtitle has__link" href="https://github.com/cs0320-s2023/soulfood"
-                    target="_blank" rel="noreferrer">Restaurant Recommendationg WebApp with Blog Posting Functionality</a>
+                    target="_blank" rel="noreferrer">Restaurant Recommendation WebApp with Blog Posting Functionality</a>
                 <div>
                     <span className="projects__subheading">Figma, Firebase, Flask, React, Python</span>
                 </div>
