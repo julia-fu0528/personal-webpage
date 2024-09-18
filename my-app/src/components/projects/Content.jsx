@@ -27,11 +27,11 @@ const Content = () => {
                 </div>
                 <div className="projects__description">
                     <li>
-                    Employed front-end and back-end development using Javascript, HTML, and CSS to create an online website tutorial on 
-                    camera projection and perspective projection for the class Computer Vision for professor Dr. James Tompkin
+                    Employed front-end and back-end development with Three.js, Javascript, HTML, and CSS to create an online website tutorial 
+                    on camera projection and perspective projection for the class Computer Vision for Dr. James Tompkin
                     </li>
                     <li>
-                    Improved upon two existing online tutorials on affine transformations and the fundamental matrix
+                    Improved upon two existing online tutorials on affine transformations and the fundamental matrix for course development
                     </li>
                     <img src={TutorialImg} alt="" className="projects__img" />
                 </div>
@@ -173,13 +173,14 @@ const Content = () => {
                 </div>
                 <div className="projects__description">
                     <li>
-                        Build WebApp that recommends restaurants based on the location, cuisine, style, or other labels that the user inputs. 
+                        {/* Build WebApp that recommends restaurants based on the location, cuisine, style, or other labels that the user inputs.  */}
+                        Built React WebApp that recommends restaurants based on labels input by the user using Figma and Python as backend
                     </li>
                     <li>
-                        Allows users to post blogs about their experience and recommendation, as well as for other users to like, collect, or follow them. 
+                        Allowed users to post blogs about their experience and recommendation, as well as for other users to like, collect, or follow them. 
                     </li>
                     <li>
-                        Mock data in the backend which includes user id, post id, restaurant label, and user reviews. 
+                        Mocked data in the backend including user and post id, restaurant labels, and user reviews using Firebase
                     </li>
                     <img src={SweImg} alt="" className="projects__img" />
                 </div>

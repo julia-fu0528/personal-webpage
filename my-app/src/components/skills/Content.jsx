@@ -10,7 +10,7 @@ const Content = () => {
                         <span className="list__heading"> Technical Skills: </span>
                         <li className="inner__list"> Expert: Python </li>
                         <li className="inner__list"> Proficient: HTML, CSS </li>
-                        <li className="inner__list"> Fluent: Java, C++, Typescript, Javascript, WebGL, OpenGL, React </li>
+                        <li className="inner__list"> Fluent: Golang, Java, C++, Typescript, Javascript, WebGL, OpenGL, React </li>
                         <li className="inner__list"> Prior Experience: C, Pyret, Racket </li>
                     </li>
                     <li>
