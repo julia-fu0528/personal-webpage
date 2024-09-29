@@ -14,10 +14,10 @@ const Content = () => {
                     <span className="experience__subheading">Software Technology Outsourcing Services Company</span>
                 </div>
                 <div className="experience__description">
-                    <li>Designed AI customer service based on Baidu UNIT intelligent conversation platform and Natural Language Processing</li>
+                    <li>Designed AI customer service to improve plane ticket booking system based on Baidu UNIT and natural language processing                    </li>
                     <li>Received the PaddlePaddle AI Technical Engineer Certificate</li>
                     <li>Received the Certificate of Achievement as Intelligent Customer Service Product Operation Engineer by Baidu AI Cloud</li>
-                    <li>Worked and attended meetings as part of the team for China Mobile Smart Card Production Platform</li>
+                    <li>Designed front-end poster layout and user interface in a 10-member team for China Mobile Smart Card Production Platform                    </li>
                 </div>
             </div>
             <div className="experience__box">

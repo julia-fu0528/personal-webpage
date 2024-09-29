@@ -177,7 +177,8 @@ const Content = () => {
                         Built React WebApp that recommends restaurants based on labels input by the user using Figma and Python as backend
                     </li>
                     <li>
-                        Allowed users to post blogs about their experience and recommendation, as well as for other users to like, collect, or follow them. 
+                    Designed and implemented front-end functionalities to allow users to post blogs about their experience and recommendation, 
+                    as well as for other users to like, collect, or follow them. 
                     </li>
                     <li>
                         Mocked data in the backend including user and post id, restaurant labels, and user reviews using Firebase
