@@ -1,5 +1,4 @@
 import React from 'react';
-import TutorialImg from "../../assets/tutorial.png";
 import RlImg from "../../assets/rl.png";
 import GraphicsImg from "../../assets/graphics.png";
 import DlImg from "../../assets/dl.png";
@@ -9,33 +8,6 @@ import SweImg from "../../assets/swe.png";
 const Content = () => {
     return (
         <div className="projects__info grid">
-            <div className="projects__box">
-                <div className="projects__topic">
-                    <h3 className="projects__title"> COMPUTER VISION COURSE DEVELOPMENT</h3>
-                    <div className="projects__social">
-                        <a href="https://github.com/julia-fu0528/demo" 
-                        className="projects__social-icon" rel="noreferrer" target="_blank">
-                        <i class="uil uil-github"></i>
-                        </a>
-                    </div>
-                    <span className="projects__date">June 2023 - August 2023</span>
-                </div>
-                <a className="projects__subtitle has__link" href="https://browncsci1430.github.io/resources/cameras_vision_vs_graphics_demo/"
-                target="_blank" rel="noreferrer">Pinhole Camera Models in Computer Vision vs. Computer Graphics</a>
-                <div>
-                    <span className="projects__subheading">Javascript, Three.js, HTML</span>
-                </div>
-                <div className="projects__description">
-                    <li>
-                    Employed front-end and back-end development with Three.js, Javascript, HTML, and CSS to create an online website tutorial 
-                    on camera projection and perspective projection for the class Computer Vision for Dr. James Tompkin
-                    </li>
-                    <li>
-                    Improved upon two existing online tutorials on affine transformations and the fundamental matrix for course development
-                    </li>
-                    <img src={TutorialImg} alt="" className="projects__img" />
-                </div>
-            </div>
             <div className="projects__box">
                 <div className="projects__topic">
                     <h3 className="projects__title">MODEL BASED REINFORCEMENT LEARNING</h3>

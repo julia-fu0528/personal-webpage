@@ -1,4 +1,5 @@
 import React from 'react';
+import TutorialImg from "../../assets/tutorial.png";
 
 const Content = () => {
     return (
@@ -18,6 +19,33 @@ const Content = () => {
                     <li>Received the PaddlePaddle AI Technical Engineer Certificate</li>
                     <li>Received the Certificate of Achievement as Intelligent Customer Service Product Operation Engineer by Baidu AI Cloud</li>
                     <li>Designed front-end poster layout and user interface in a 10-member team for China Mobile Smart Card Production Platform                    </li>
+                </div>
+            </div>
+            <div className="experience__box">
+                <div className="experience__topic">
+                    <h3 className="experience__title"> Software Engineering Intern at Brown Visual Computing</h3>
+                    <div className="experience__social">
+                        <a href="https://github.com/julia-fu0528/demo" 
+                        className="experience__social-icon" rel="noreferrer" target="_blank">
+                        <i class="uil uil-github"></i>
+                        </a>
+                    </div>
+                    <span className="experience__date">June 2023 - August 2023</span>
+                </div>
+                <a className="experience__subtitle has__link" href="https://browncsci1430.github.io/resources/cameras_vision_vs_graphics_demo/"
+                target="_blank" rel="noreferrer">Pinhole Camera Models in Computer Vision vs. Computer Graphics</a>
+                <div>
+                    <span className="experience__subheading">Javascript, Three.js, HTML</span>
+                </div>
+                <div className="experience__description">
+                    <li>
+                    Employed front-end and back-end development with Three.js, Javascript, HTML, and CSS to create an online website tutorial 
+                    on camera projection and perspective projection for the class Computer Vision for Dr. James Tompkin
+                    </li>
+                    <li>
+                    Improved upon two existing online tutorials on affine transformations and the fundamental matrix for course development
+                    </li>
+                    <img src={TutorialImg} alt="" className="experience__img" />
                 </div>
             </div>
             <div className="experience__box">
