@@ -2,6 +2,7 @@ import React from 'react'
 import ResearchImg from "../../assets/research.png";
 import IRLImg from "../../assets/irl.jpg";
 import HandsImg from "../../assets/GigaHands.png";
+import SPOTImg from "../../assets/SPOT.png";
 
 const Info = () => {
     return (
@@ -28,6 +29,29 @@ const Info = () => {
                     </li>
                 </div>
                 <img src={HandsImg} alt="" className="research__img" />
+            </div>
+            <div className="research__box">
+                <div className="research__topic">
+                    <h3 className="research__title"> TactiDog: Touching Sensing on SPOT with Joint Torque Sensors </h3>
+                    <span className="research__date"> 2024 - present</span>
+                </div>
+                <a className="research__subtitle" href="https://ivl.cs.brown.edu/"
+                target="_blank" rel="noreferrer">Brown Interactive 3D Vision & Learning Lab</a>
+                <div>
+                    <span className="research__subheading">Advisors: Srinath Sridhar</span>
+                </div>
+                <div className="research__description">
+                    <li>
+                        Develop a tactile sensing system on Boston Dynamics Spot robot with 12 joint torque sensors to localize contact on the robot body
+                    </li>
+                    <li>
+                        Condition contact localization on the robot joint angles, taking into consideration the robot's dynamic, gait of its activites, contact force, contact angle, contact finger, and contact duration. 
+                    </li>
+                    <li>
+                        Visualize SPOT mesh and contact location marker to faciliatate live demo of contact localization on the robot, potentially extending to the legs and arm. 
+                    </li>
+                </div>
+                <img src={SPOTImg} alt="" className="research__img" />
             </div>
             <div className="research__box">
                 <div className="research__topic">
