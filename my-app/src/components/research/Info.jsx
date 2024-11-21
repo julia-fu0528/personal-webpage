@@ -21,17 +21,17 @@ const Info = () => {
                         Synchronized the 30 FPS frames in the RGB videos across 51 cameras in the Brown Interactive Capture Systems for accurate 2D and 3D keypoints and MANO model fitting. 
                     </li>
                     <li>
-                        Generated and accumulated contact heatmap on the palms and backs of the left and right hand across bimanual hand-object and hand-hand activites of diverse scenes, including boxing, massage, cleaning, and frying. 
+                        Generated and accumulated contact heatmap on the palms and backs of the left and right hand across bimanual hand-object and hand-hand activites of diverse scenes, such as boxing, massage, frying, and tea drinking. 
                     </li>
                     <li>
-                        Collected data for the GigaHands dataset, mostly focusing on makeup scene and clothes folding scenes, which consist of more than forty actions with text annotations; and scanned the objects for 3D reconstruction. 
+                        Collected data for the GigaHands dataset, mostly focusing on makeup, cleaning, and clothes folding scenes, which consist of more than forty actions with text annotations; and scanned the objects for 3D reconstruction. 
                     </li>
                 </div>
                 <img src={HandsImg} alt="" className="research__img" />
             </div>
             <div className="research__box">
                 <div className="research__topic">
-                    <h3 className="research__title">Vibration Haptics: Hand contact detection and localization with IMU data</h3>
+                    <h3 className="research__title">Vibration Haptics: Hand contact detection and localization with IMU</h3>
                     <span className="research__date">Jan 2024 - Sep 2024</span>
                 </div>
                 <a className="research__subtitle" href="https://ivl.cs.brown.edu/"
