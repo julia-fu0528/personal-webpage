@@ -27,6 +27,9 @@ const Info = () => {
                     <li>
                         Collected data for the GigaHands dataset, mostly focusing on makeup, cleaning, and clothes folding scenes, which consist of more than forty actions with text annotations; and scanned the objects for 3D reconstruction. 
                     </li>
+                    <li>
+                        Tried to implement 3D Dynamic Gaussian Splatting on the multi-view camera data of scenes. 
+                    </li>
                 </div>
                 <img src={HandsImg} alt="" className="research__img" />
             </div>
