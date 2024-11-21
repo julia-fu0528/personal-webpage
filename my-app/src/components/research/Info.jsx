@@ -32,7 +32,7 @@ const Info = () => {
             </div>
             <div className="research__box">
                 <div className="research__topic">
-                    <h3 className="research__title"> TactiDog: Touching Sensing on SPOT with Joint Torque Sensors </h3>
+                    <h3 className="research__title"> TactiDog: Touch Sensing on SPOT with Joint Torque Sensors </h3>
                     <span className="research__date"> 2024 - present</span>
                 </div>
                 <a className="research__subtitle" href="https://ivl.cs.brown.edu/"
