@@ -7,7 +7,7 @@ import SPOTImg from "../../assets/SPOT.png";
 const Info = () => {
     return (
         <div className="research__info grid">
-            <div className="research__box">
+            {/* <div className="research__box">
                 <div className="research__topic">
                     <h3 className="research__title"> GigaHands: A Massive Annotated Dataset of Bimanual Hand Activities </h3>
                     <span className="research__date">Jan 2024 - Nov 2024</span>
@@ -32,8 +32,8 @@ const Info = () => {
                     </li>
                 </div>
                 <img src={HandsImg} alt="" className="research__img" />
-            </div>
-            <div className="research__box">
+            </div> */}
+            {/* <div className="research__box">
                 <div className="research__topic">
                     <h3 className="research__title"> TactiDog: Touch Sensing on SPOT with Joint Torque Sensors </h3>
                     <span className="research__date"> 2024 - present</span>
@@ -55,7 +55,7 @@ const Info = () => {
                     </li>
                 </div>
                 <img src={SPOTImg} alt="" className="research__img" />
-            </div>
+            </div> */}
             <div className="research__box">
                 <div className="research__topic">
                     <h3 className="research__title">Vibration Haptics: Hand contact detection and localization with IMU</h3>
