@@ -1,13 +1,61 @@
 import React from 'react'
 import ResearchImg from "../../assets/research.png";
 import IRLImg from "../../assets/irl.jpg";
-import HandsImg from "../../assets/GigaHands.png";
-import SPOTImg from "../../assets/SPOT.png";
+// import HandsImg from "../../assets/GigaHands.png";
+// import SPOTImg from "../../assets/SPOT.png";
 
 const Info = () => {
     return (
         <div className="research__info grid">
-            
+            {/* <div className="research__box">
+                <div className="research__topic">
+                    <h3 className="research__title"> GigaHands: A Massive Annotated Dataset of Bimanual Hand Activities </h3>
+                    <span className="research__date">Jan 2024 - Nov 2024</span>
+                </div>
+                <a className="research__subtitle" href="https://ivl.cs.brown.edu/"
+                target="_blank" rel="noreferrer">Brown Interactive 3D Vision & Learning Lab</a>
+                <div>
+                    <span className="research__subheading">Advisors: Srinath Sridhar, Daniel Ritchie</span>
+                </div>
+                <div className="research__description">
+                    <li>
+                        Synchronized the 30 FPS frames in the RGB videos across 51 cameras in the Brown Interactive Capture Systems for accurate 2D and 3D keypoints and MANO model fitting. 
+                    </li>
+                    <li>
+                        Generated and accumulated contact heatmap on the palms and backs of the left and right hand across bimanual hand-object and hand-hand activites of diverse scenes, such as boxing, massage, frying, and tea drinking. 
+                    </li>
+                    <li>
+                        Collected data for the GigaHands dataset, mostly focusing on makeup, cleaning, and clothes folding scenes, which consist of more than forty actions with text annotations; and scanned the objects for 3D reconstruction. 
+                    </li>
+                    <li>
+                        Tried to implement 3D Dynamic Gaussian Splatting on the multi-view camera data of scenes. 
+                    </li>
+                </div>
+                <img src={HandsImg} alt="" className="research__img" />
+            </div> */}
+            {/* <div className="research__box">
+                <div className="research__topic">
+                    <h3 className="research__title"> TactiDog: Touch Sensing on SPOT with Joint Torque Sensors </h3>
+                    <span className="research__date"> 2024 - present</span>
+                </div>
+                <a className="research__subtitle" href="https://ivl.cs.brown.edu/"
+                target="_blank" rel="noreferrer">Brown Interactive 3D Vision & Learning Lab</a>
+                <div>
+                    <span className="research__subheading">Advisors: Srinath Sridhar</span>
+                </div>
+                <div className="research__description">
+                    <li>
+                        Develop a tactile sensing system on Boston Dynamics Spot robot with 12 joint torque sensors to localize contact on the robot body
+                    </li>
+                    <li>
+                        Condition contact localization on the robot joint angles, taking into consideration the robot's dynamic, gait of its activites, contact force, contact angle, contact finger, and contact duration. 
+                    </li>
+                    <li>
+                        Visualize SPOT mesh and contact location marker to faciliatate live demo of contact localization on the robot, potentially extending to the legs and arm. 
+                    </li>
+                </div>
+                <img src={SPOTImg} alt="" className="research__img" />
+            </div> */}
             <div className="research__box">
                 <div className="research__topic">
                     <h3 className="research__title">Vibration Haptics: Hand contact detection and localization with IMU</h3>
