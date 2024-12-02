@@ -1,13 +1,13 @@
 import React from 'react'
 import ResearchImg from "../../assets/research.png";
 import IRLImg from "../../assets/irl.jpg";
-// import HandsImg from "../../assets/GigaHands.png";
+import HandsImg from "../../assets/GigaHands.png";
 // import SPOTImg from "../../assets/SPOT.png";
 
 const Info = () => {
     return (
         <div className="research__info grid">
-             <div className="research__box">
+            <div className="research__box">
                 <div className="research__topic">
                     <h3 className="research__title"> GigaHands: A Massive Annotated Dataset of Bimanual Hand Activities </h3>
                     <span className="research__date">Jan 2024 - Nov 2024</span>
