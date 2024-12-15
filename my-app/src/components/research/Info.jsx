@@ -19,10 +19,10 @@ const Info = () => {
                 </div>
                 <div className="research__description">
                     <li>
-                        Synchronized the 30 FPS frames in the RGB videos across 51 cameras in the Brown Interactive Capture Systems for accurate 2D and 3D keypoints and MANO model fitting. 
+                        Synchronized the 30 FPS frames in the RGB videos across 51 cameras in the Brown Interactive Capture Systems for accurate 2D and 3D key points and MANO model fitting. 
                     </li>
                     <li>
-                        Generated and accumulated contact heatmap on the palms and backs of the left and right hand across bimanual hand-object and hand-hand activites of diverse scenes, such as boxing, massage, frying, and tea drinking. 
+                        Generated and accumulated contact heatmap on the palms and backs of the left and right hand across bimanual hand-object and hand-hand activities of diverse scenes, such as boxing, massage, frying, and tea drinking. 
                     </li>
                     <li>
                         Collected data for the GigaHands dataset, mostly focusing on makeup, cleaning, and clothes folding scenes, which consist of more than forty actions with text annotations; and scanned the objects for 3D reconstruction. 
