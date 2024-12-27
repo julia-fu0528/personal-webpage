@@ -9,8 +9,14 @@ const Info = () => {
         <div className="research__info grid">
             <div className="research__box">
                 <div className="research__topic">
-                    <h3 className="research__title"> GigaHands: A Massive Annotated Dataset of Bimanual Hand Activities </h3>
+                    <a className="research__title" href="https://ivl.cs.brown.edu/research/gigahands.html"> GigaHands: A Massive Annotated Dataset of Bimanual Hand Activities </a>
                     <span className="research__date">Jan 2024 - Nov 2024</span>
+                    <div className="research__social">
+                        <a href="https://www.arxiv.org/abs/2412.04244" 
+                        className="research__social-icon" rel="noreferrer" target="_blank">
+                        <i class="uil uil-file-alt"></i>
+                        </a>
+                    </div>
                 </div>
                 <a className="research__subtitle" href="https://ivl.cs.brown.edu/"
                 target="_blank" rel="noreferrer">Brown Interactive 3D Vision & Learning Lab</a>
