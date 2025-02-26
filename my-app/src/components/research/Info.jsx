@@ -9,7 +9,7 @@ const Info = () => {
         <div className="research__info grid">
             <div className="research__box">
                 <div className="research__topic">
-                    <a className="research__title" href="https://ivl.cs.brown.edu/research/gigahands.html"> GigaHands: A Massive Annotated Dataset of Bimanual Hand Activities </a>
+                    <a className="research__title" href="https://ivl.cs.brown.edu/research/gigahands.html"> (CVPR 2025) GigaHands: A Massive Annotated Dataset of Bimanual Hand Activities </a>
                     <span className="research__date">Jan 2024 - Nov 2024</span>
                     <div className="research__social">
                         <a href="https://www.arxiv.org/pdf/2412.04244" 
