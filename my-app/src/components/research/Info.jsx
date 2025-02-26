@@ -21,6 +21,7 @@ const Info = () => {
                 <a className="research__subtitle" href="https://ivl.cs.brown.edu/"
                 target="_blank" rel="noreferrer">Brown Interactive 3D Vision & Learning Lab</a>
                 <div>
+                <span className="research__subheading">Rao Fu*, Dingxi Zhang*, Alex Jiang, Wanjia Fu, Austin Funk, Daniel Ritchie, Srinath Sridhar</span>
                     <span className="research__subheading">Advisors: Srinath Sridhar, Daniel Ritchie</span>
                 </div>
                 <div className="research__description">
