@@ -71,8 +71,9 @@
     font-family: 'Merriweather', serif;
 }
 .experience__description{
-    padding: 0 4rem 0 0;
-    margin-bottom: var(--mb-2-5);
+    padding: 0 0 0 0;
+    /* margin-bottom: var(--mb-2-5); */
+    margin-bottom: 0;
     font-size: var(--h4-font-size);
     font-family: 'Merriweather', serif;
     color: black;
