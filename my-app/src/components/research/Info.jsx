@@ -2,11 +2,41 @@ import React from 'react'
 import ResearchImg from "../../assets/research.png";
 import IRLImg from "../../assets/irl.jpg";
 import HandsImg from "../../assets/GigaHands.png";
-// import SPOTImg from "../../assets/SPOT.png";
+import UniTacImg from "../../assets/tactile-teaser.jpg";
 
 const Info = () => {
     return (
         <div className="research__info grid">
+            <div className="research__box">
+                <div className="research__topic">
+                    <h3 className="research__title" href="https://drive.google.com/file/d/1YsYjMKg5QS0XgnNtDol81E7jzsp2x_CA/view?usp=sharing"> (under IROS review) Unitac: Whole-Robot Touch Sensing Without Tactile Sensors</h3>
+                    <span className="research__date"> Nov 2024 - Mar 2025</span>
+                    <div className="research__social">
+                        <a href="https://drive.google.com/file/d/1YsYjMKg5QS0XgnNtDol81E7jzsp2x_CA/view?usp=sharing" 
+                        className="research__social-icon" rel="noreferrer" target="_blank">
+                        <i class="uil uil-video"></i>
+                        </a>
+                    </div>
+                </div>
+                <a className="research__subtitle" href="https://ivl.cs.brown.edu/"
+                target="_blank" rel="noreferrer">Brown Interactive 3D Vision & Learning Lab</a>
+                <div>
+                    <span className="research__subheading">Advisors: Stefanie Tellex, Srinath Sridhar</span>
+                </div>
+                <div className="research__description">
+                    <li>
+                        We present a data-driven model, UniTac, that leverages built-in joint torque sensors to achieve live whole-body touch sensing across various robot platforms, 
+                        eliminating the need for dedicated tactile sensors.
+                    </li>
+                    <li>
+                        UniTac demonstrates generalizability across multiple robot instances with the same type, allowing a wider community to use it as an off-the-shelf interface directly.
+                    </li>
+                    <li>
+                        We demonstrate potential applications in touch-based human-robot interaction, including scenarios such as bio-inspired quadruped choreography.
+                    </li>
+                </div>
+                <img src={UniTacImg} alt="" className="research__img" />
+            </div> 
             <div className="research__box">
                 <div className="research__topic">
                     <a className="research__title" href="https://ivl.cs.brown.edu/research/gigahands.html"> (CVPR 2025) GigaHands: A Massive Annotated Dataset of Bimanual Hand Activities </a>
@@ -20,9 +50,9 @@ const Info = () => {
                 </div>
                 <a className="research__subtitle" href="https://ivl.cs.brown.edu/"
                 target="_blank" rel="noreferrer">Brown Interactive 3D Vision & Learning Lab</a>
-                <div>
+                {/* <div>
                     <span className="research__subheading">Rao Fu*, Dingxi Zhang*, Alex Jiang, Wanjia Fu, Austin Funk, Daniel Ritchie, Srinath Sridhar</span>
-                </div>
+                </div> */}
                 <div>
                     <span className="research__subheading">Advisors: Srinath Sridhar, Daniel Ritchie</span>
                 </div>
@@ -42,29 +72,6 @@ const Info = () => {
                 </div>
                 <img src={HandsImg} alt="" className="research__img" />
             </div> 
-            {/* <div className="research__box">
-                <div className="research__topic">
-                    <h3 className="research__title"> TactiDog: Touch Sensing on SPOT with Joint Torque Sensors </h3>
-                    <span className="research__date"> 2024 - present</span>
-                </div>
-                <a className="research__subtitle" href="https://ivl.cs.brown.edu/"
-                target="_blank" rel="noreferrer">Brown Interactive 3D Vision & Learning Lab</a>
-                <div>
-                    <span className="research__subheading">Advisors: Srinath Sridhar</span>
-                </div>
-                <div className="research__description">
-                    <li>
-                        Develop a tactile sensing system on Boston Dynamics Spot robot with 12 joint torque sensors to localize contact on the robot body
-                    </li>
-                    <li>
-                        Condition contact localization on the robot joint angles, taking into consideration the robot's dynamic, gait of its activites, contact force, contact angle, contact finger, and contact duration. 
-                    </li>
-                    <li>
-                        Visualize SPOT mesh and contact location marker to faciliatate live demo of contact localization on the robot, potentially extending to the legs and arm. 
-                    </li>
-                </div>
-                <img src={SPOTImg} alt="" className="research__img" />
-            </div> */}
             <div className="research__box">
                 <div className="research__topic">
                     <h3 className="research__title">Vibration Haptics: Hand contact detection and localization with IMU</h3>
