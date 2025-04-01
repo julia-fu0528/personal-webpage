@@ -24,6 +24,8 @@ const Content = () => {
                         <li className="inner__list"> Deep Learning </li>
                         <li className="inner__list"> Computer Vision </li>
                         <li className="inner__list"> Computer Graphics </li>
+                        <li className="inner__list"> Computer Networks</li>
+                        <li className="inner__list"> Design and Analysis of Algorithms</li>
                         <li className="inner__list"> Introduction to Software Engineering </li>
                         <li className="inner__list"> Introduction to Computer Systems </li>
                         <li className="inner__list"> Accelerated Introductino to Computer Science</li>
@@ -32,8 +34,10 @@ const Content = () => {
                     </li>
                     <li>
                         <span className="list__heading"> Relevant Coursework (Mathematics): </span>
+                        <li className="inner__list"> Real Analysis</li>
                         <li className="inner__list"> Operations Research: Probabilistic Models </li>
                         <li className="inner__list"> Abstract Algebra</li>
+                        <li className="inner__list"> Introduction to Computational Linear Algebra</li>
                         <li className="inner__list"> Honors Linear Algebra</li>
                         <li className="inner__list"> Applied Partial Differential Equations</li>
                         <li className="inner__list"> Honors Multivariable Calculus</li>
