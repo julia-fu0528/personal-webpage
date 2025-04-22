@@ -8,6 +8,7 @@ const Content = () => {
                 <div className="skills__description">
                     <li>
                         <span className="list__heading"> Awards: </span>
+                        <li className="inner__list"> Pathways@RSS 2025 Fellowship Award </li>
                         <li className="inner__list"> Randy Pausch Undergraduate Research Fellowship Reward</li>
                         <li className="inner__list"> Advanced Undergraduate Research SPRINT Fellowship </li>
                     </li>
