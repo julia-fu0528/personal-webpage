@@ -12,7 +12,7 @@ const Data = () => {
                      Brown University
                 </a> and a researcher in <a href="http://irl.cs.brown.edu/index.php" target="_blank" rel="noreferrer" className="is__link">
                         Brown Intelligent Robotics
-                    </a> and <a href="https://ivl.cs.brown.edu/people.html" target="_blank" rel="noreferrer" className="is__link">
+                    </a> and <a href="https://ivl.cs.brown.edu/" target="_blank" rel="noreferrer" className="is__link">
                     Brown Interactive 3D Vision & Learning Lab</a>. 
             </p>
             <p className="about__description">
