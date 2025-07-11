@@ -9,7 +9,7 @@ const Info = () => {
         <div className="research__info grid">
             <div className="research__box">
                 <div className="research__topic">
-                    <h3 className="research__title" href="https://ivl.cs.brown.edu/research/unitac"> (under review) UniTac: Whole-Robot Touch Sensing Without Tactile Sensors</h3>
+                    <h3 className="research__title" href="https://ivl.cs.brown.edu/research/unitac"> UniTac: Whole-Robot Touch Sensing Without Tactile Sensors</h3>
                     <span className="research__date"> Nov 2024 - Mar 2025</span>
                     <div className="research__social">
                         <a href="https://arxiv.org/abs/2507.07980" 
