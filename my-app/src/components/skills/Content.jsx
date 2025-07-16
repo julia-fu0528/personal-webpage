@@ -10,8 +10,9 @@ const Content = () => {
                         <span className="list__heading"> Awards: </span>
                         <li className="inner__list"> Pathways@RSS 2025 Fellowship Award </li>
                         <li className="inner__list"> CVPR 2025 Travel Support Award </li>
+                        <li className="inner__list"> ICRA 2025 Undergrad Outreach Workshop </li>
+                        <li className="inner__list"> Randy Pausch Undergraduate Research Fellowship Reward (annually 2 awarded)</li>
                         <li className="inner__list"> First Place Award at 10th Annual Brown CS Research Symposium </li>
-                        <li className="inner__list"> Randy Pausch Undergraduate Research Fellowship Reward</li>
                         <li className="inner__list"> Advanced Undergraduate Research SPRINT Fellowship </li>
                     </li>
                     <li>
