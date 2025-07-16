@@ -83,7 +83,7 @@ const toggleSection = (section) => {
                          Leadership & Activities:
                         <span className={`arrow ${openSection === 'activities' ? 'open' : ''}`}>&#9662;</span>
                         </button>
-                        {openSection === 'other' && (
+                        {openSection === 'activities' && (
                           <ul className="collapsible__content">
                            <li className="inner__list activities"> Brown Moli East Asian Dance Company: Co-Secretary Chair; Co-Captain </li>
                            <li className="inner__list2"> Organized members, logistics, and finance for the club, communicate with student activities office and financial supervisors </li>
