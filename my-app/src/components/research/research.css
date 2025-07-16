@@ -15,10 +15,16 @@
     /* column-gap: 4rem; */ /* Remove or comment out this line */
 }
 
+.research__teaser{
+    max-width: 24%;            
+    height: auto;
+}
+
 .research__img{
     border-radius: 1.5rem;
     justify-self: center;
 }
+
 
 .research_info{
     grid-template-columns: repeate(3, 140px);
@@ -31,7 +37,11 @@
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 0.75rem;
     /* text-align: left; */
-    padding: 2rem 1.25rem;
+    padding: 2rem 1.25rem;    
+    display: flex;             /* ✅ Enable flex layout */
+    flex-direction: row;       /* ✅ Horizontal layout */
+    align-items: center;       /* ✅ Vertical alignment */
+    gap: 1.5rem;      
 }
 
 .section__title{
@@ -40,9 +50,10 @@
     text-align: center;
     padding-bottom: 0.5rem;
 }
-
+ 
 .research__title{
-    font-size: var(--h2-font-size);
+    color: rgb(75, 9, 116);
+    font-size: var(--h3-font-size);
     font-weight: var(--font-bold);
 }
 .research__topic{
@@ -60,27 +71,65 @@
 #irl{
     padding-left: 8.5rem;
 }
-.research__subtitle{
-    color: rgb(73, 12, 205);
-    font-size: var(--h3-font-size);
-    font-weight: var(--font-medium);
-    font-family: 'Merriweather', serif;
-}
-.research__subtitle:hover{
-    color: rgb(101, 75, 152);
-    font-weight: 510;
+
+.btn {
+    display: inline-block;
+    padding: 8px 16px;             /* Button size */
+    border: 1.5px solid rgb(123, 14, 170);     /* Black border */
+    border-radius: 4px;            /* Slightly rounded corners */
+    text-decoration: none;         /* Remove underline */
+    font-weight: bold;
+    color: rgb(123, 14, 170);                  /* Text color */
+    text-transform: uppercase;     /* Make text uppercase */
+    background-color: transparent; /* No background */
+    font-size: 14px;               /* Adjust as needed */
+    transition: background-color 0.2s ease, color 0.2s ease;
+    margin: 1rem;
 }
 
-.research__subheading{
+.btn:hover {
+    background-color: rgb(123, 14, 170);       /* Hover effect */
+    color: white;                  /* Invert text color on hover */
+}
+.research__subtitle{
+    /* color: rgb(73, 12, 205); */
+    color: rgb(97, 32, 166);
     font-size: var(--h4-font-size);
+    font-weight: var(--font-medium);
+    font-family: 'Merriweather', serif;
+    /* padding-bottom: 0.5rem; */
+}
+/* .research__subtitle:hover{
+    color: rgb(101, 75, 152);
+    font-weight: 510;
+} */
+
+a {
+    color: rgb(36, 55, 192);           /* Change link color */
+    text-decoration: none;  /* Remove underline */
+}
+
+strong{
+    color: black;
+    font-weight: 600;
+}
+
+a:hover {
+    color: #5d1506;            /* Optional: slightly darker on hover */
+}
+.research__subheading{
+    font-size: var(--h6-font-size);
     font-weight: var(--font-bold);
     padding-top: 0.5rem;
     font-family: 'Merriweather', serif;
 }
 .research__description{
-    padding: 0 4rem 0 0;
-    margin-bottom: var(--mb-2-5);
-    font-size: var(--h4-font-size);
+    padding: 0 0 0 0;
+    padding-top: 0.5rem;
+    /* margin-bottom: var(--mb-2-5); */
+    margin-bottom: 0;
+    padding-bottom: 1rem;
+    font-size: var(--h5-font-size);
     font-family: 'Merriweather', serif;
     color: black;
 }

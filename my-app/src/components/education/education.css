@@ -96,6 +96,45 @@
 
 
 
+
+
+.collapsible {
+    margin-bottom: 1rem;
+}
+
+.collapsible__header {
+    background-color: transparent;
+    border: none;
+    color: rgb(40, 4, 117); /* Purple text */
+    font-size: var(--h4-font-size);
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    text-align: left;
+    padding: 0.5rem 0;
+    border-bottom: 2px solid rgb(142, 114, 203); /* Purple underline */
+}
+
+.arrow {
+    transition: transform 0.3s ease;
+}
+
+.arrow.open {
+    transform: rotate(180deg);
+}
+
+.collapsible__content {
+    padding-left: 1.5rem;
+    margin-top: 0.5rem;
+    color: black;
+    font-size: var(--h4-font-size);
+}
+
+
+
+
 /* ========== BREAKPOINTS ========== */
 /* For large devices */
 @media screen and (max-width: 1092px){
