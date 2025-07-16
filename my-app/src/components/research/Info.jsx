@@ -82,6 +82,7 @@ const Info = () => {
                         <a href="https://www.arxiv.org/abs/2412.04244"class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noreferrer">arXiv</a>
                         <a href="https://ivl.cs.brown.edu/research/gigahands.html"class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noreferrer">HTML</a>
                         <a href="https://github.com/Kristen-Z/GigaHands"class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noreferrer">Dataset</a>
+                        <a href="https://github.com/Kristen-Z/GigaHands" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noreferrer">Code</a>
                     </div>
                 </div>
             </div> 
