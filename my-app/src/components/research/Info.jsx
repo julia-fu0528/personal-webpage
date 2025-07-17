@@ -11,7 +11,7 @@ const Info = () => {
                 </div>
                 <div className="research__paragraph">
                     <div className="research__topic">
-                        <a className="research__title" href="https://ivl.cs.brown.edu/research/unitac"> UniTac: Whole-Robot Touch Sensing Without Tactile Sensors</a>
+                        <p className="research__title"> UniTac: Whole-Robot Touch Sensing Without Tactile Sensors</p>
                         {/* <div className="research__social">
                             <a href="https://arxiv.org/abs/2507.07980" 
                             className="research__social-icon" rel="noreferrer" target="_blank">
@@ -52,7 +52,7 @@ const Info = () => {
                 </div>
                 <div className="research__paragraph">
                     <div className="research__topic">
-                        <a className="research__title" href="https://ivl.cs.brown.edu/research/gigahands.html"> GigaHands: A Massive Annotated Dataset of Bimanual Hand Activities </a>
+                        <p className="research__title"> GigaHands: A Massive Annotated Dataset of Bimanual Hand Activities </p>
                         {/* <div className="research__social">
                             <a href="https://www.arxiv.org/pdf/2412.04244" 
                             className="research__social-icon" rel="noreferrer" target="_blank">
