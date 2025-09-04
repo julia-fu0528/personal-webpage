@@ -8,7 +8,7 @@ const Data = () => {
             </h1>
             <h3 className="about__subtitle"> wanjia_fu@brown.edu</h3>
             <p className="about__description">
-                I am a Computer Science and Mathematics student at <a href="https://www.brown.edu/" target="_blank" rel="noreferrer" className="is__link">
+                I am a Computer Science and Applied Mathematics student at <a href="https://www.brown.edu/" target="_blank" rel="noreferrer" className="is__link">
                      Brown University
                 </a> and a researcher in <a href="http://irl.cs.brown.edu/index.php" target="_blank" rel="noreferrer" className="is__link">
                         Brown Intelligent Robotics
@@ -26,7 +26,7 @@ const Data = () => {
                 If you'd like to chat, feel free to reach out to me on linkedin or through email!
             </p>
             <a download="" href={CV} className="button
-                    button--flex">Downlaod CV
+                    button--flex">Download Resume
                          <svg
                             class="button__icon"
                             xmlns="http://www.w3.org/2000/svg"
