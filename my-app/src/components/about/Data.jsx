@@ -25,6 +25,9 @@ const Data = () => {
             <p className="about__description">
                 If you'd like to chat, feel free to reach out to me on linkedin or through email!
             </p>
+            <p className="phd">
+                I am currently looking for PhD positions for Fall 2026.
+            </p>
             <a download="" href={CV} className="button
                     button--flex">Download Resume
                          <svg

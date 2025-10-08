@@ -9,6 +9,11 @@
     align-items: center;
     color: black;
 }
+.phd{
+    color:rgb(204, 0, 255);
+    font-style: italic;
+    margin-bottom: 2rem;
+}
 .is__link{
     color:rgb(73, 12, 205);
 }
