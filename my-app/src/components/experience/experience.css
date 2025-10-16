@@ -16,7 +16,7 @@
     justify-self: center;
 }
 
-.experience_info{
+.experience__info{
     grid-template-columns: repeate(3, 140px);
     gap: 0.5rem;
     margin-bottom: var(--mb-2);
