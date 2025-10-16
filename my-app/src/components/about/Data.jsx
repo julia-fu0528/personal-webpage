@@ -1,5 +1,5 @@
 import React from "react";
-import CV from "../../assets/Resume_Wanjia Fu.pdf";
+import CV from "../../assets/CV_Wanjia Fu.pdf";
 
 const Data = () => {
     return (
@@ -8,28 +8,28 @@ const Data = () => {
             </h1>
             <h3 className="about__subtitle"> wanjia_fu@brown.edu</h3>
             <p className="about__description">
-                I am a Computer Science and Applied Mathematics student at <a href="https://www.brown.edu/" target="_blank" rel="noreferrer" className="is__link">
-                     Brown University
-                </a> and a researcher in <a href="http://irl.cs.brown.edu/index.php" target="_blank" rel="noreferrer" className="is__link">
+                I am an undergraduate student at <a href="https://www.brown.edu/" target="_blank" rel="noreferrer" className="is__link">
+                     Brown University 
+                </a> studying Computer Science and Applied Mathematics, and a researcher in <a href="http://irl.cs.brown.edu/index.php" target="_blank" rel="noreferrer" className="is__link">
                         Brown Intelligent Robotics
                     </a> and <a href="https://ivl.cs.brown.edu/" target="_blank" rel="noreferrer" className="is__link">
                     Brown Interactive 3D Vision & Learning Lab</a>. 
             </p>
             <p className="about__description">
-            I enjoy unleashing my creativity to innovate, 
-                    as well as cooperating with people who share my passion to solve challenging problems with technology. 
+            I'm interested in vision and tactile sensing for contact-rich dexterous manipulation, 
+            dynamic models for robot learning, and human robot interactions.
             </p>
             <p className="about__description">
-                Outside of STEM, I love dancing, playing the drums, and writing novels. 
+                Outside of STEM, I love dancing and playing the drums. 
             </p>
             <p className="about__description">
-                If you'd like to chat, feel free to reach out to me on linkedin or through email!
+                If you'd like to chat, feel free to reach out to me through email!
             </p>
             <p className="phd">
                 I am currently looking for PhD positions for Fall 2026.
             </p>
             <a download="" href={CV} className="button
-                    button--flex">Download Resume
+                    button--flex">Download CV
                          <svg
                             class="button__icon"
                             xmlns="http://www.w3.org/2000/svg"

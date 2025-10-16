@@ -60,6 +60,7 @@
 #uta{
     padding-left: 23rem;
 }
+
 .skills__subtitle{
     margin-left: 2rem;
     color: rgb(73, 12, 205);
@@ -95,7 +96,10 @@
     color: black;
 }
 
-
+.emphasize{
+    color: rgb(119, 34, 141);
+    font-weight: var(--font-semi-bold);
+}
 
 /* ========== BREAKPOINTS ========== */
 /* For large devices */
