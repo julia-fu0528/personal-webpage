@@ -22,11 +22,17 @@ const Content = () => {
             <li className="inner__list">CVPR 2025 Travel Support Award</li>
             <li className="inner__list">ICRA 2025 Undergrad Outreach Workshop</li>
             <li className="inner__list">
-              Randy Pausch Undergraduate Research Fellowship
-              <span className="emphasize"> (1 recipient/yr)</span>
+            <a
+                href="https://cs.brown.edu/news/2025/10/15/apply-now-for-the-10k-pausch-undergraduate-summer-research-award/"
+                target="_blank"
+                rel="noreferrer"
+              >
+              Randy Pausch Undergraduate Research Fellowship</a>
+              <span className="emphasize"> ($13,350, 1 / 1200 per year)</span>
             </li>
             <li className="inner__list">
               First Place, 10th Annual Brown CS Research Symposium
+              <span className="emphasize"> (1 out of 26)</span>
             </li>
             <li className="inner__list">Advanced Undergraduate Research SPRINT Fellowship</li>
           </ul>

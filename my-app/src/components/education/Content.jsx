@@ -32,17 +32,22 @@ const toggleSection = (section) => {
                         </button>
                         {openSection === 'cs' && (
                           <ul className="collapsible__content">
-                            <li className="inner__list"> - Learning and Sequential Decision Making </li>
-                            <li className="inner__list"> - Deep Learning </li>
-                            <li className="inner__list"> - Computer Vision </li>
-                            <li className="inner__list"> - Computer Graphics </li>
-                            <li className="inner__list"> - Computer Networks</li>
-                            <li className="inner__list"> - Design and Analysis of Algorithms</li>
-                            <li className="inner__list"> - Introduction to Software Engineering </li>
-                            <li className="inner__list"> - Introduction to Computer Systems </li>
-                            <li className="inner__list"> - Accelerated Introduction to Computer Science</li>
-                            <li className="inner__list"> - Applied Statistics in Python</li>
-                            <li className="inner__list"> - Individual Independent Study </li>
+                            <li className="inner__list"> - CSCI 2952X Research Topics in Self Supervised Learning</li>
+                            <li className="inner__list"> - CSCI 2952N Reintegrating AI</li>
+                            <li className="inner__list"> - CSCI 2951X Advanced Topics in Deep Learning </li>
+                            <li className="inner__list"> - CSCI 2951F Learning and Sequential Decision Making </li>
+                            <li className="inner__list"> - CSCI 1952A Human-AI Interaction</li>
+                            <li className="inner__list"> - CSCI 1550 Probabilistic Methods in Computer Science</li>
+                            <li className="inner__list"> - CSCI 1470 Deep Learning </li>
+                            <li className="inner__list"> - CSCI 1430 Computer Vision </li>
+                            <li className="inner__list"> - CSCI 1230 Computer Graphics </li>
+                            <li className="inner__list"> - CSCI 1680 Computer Networks</li>
+                            <li className="inner__list"> - CSCI 1570 Design and Analysis of Algorithms</li>
+                            <li className="inner__list"> - CSCI 0320 Introduction to Software Engineering </li>
+                            <li className="inner__list"> - CSCI 0330 Introduction to Computer Systems </li>
+                            <li className="inner__list"> - CSCI 0190 Accelerated Introduction to Computer Science</li>
+                            <li className="inner__list"> - DATA 0250 Applied Statistics in Python</li>
+                            <li className="inner__list"> - CSCI 1973 Individual Independent Study </li>
                         </ul>
                         )}
                     </div>
@@ -53,15 +58,17 @@ const toggleSection = (section) => {
                         </button>
                         {openSection === 'apma' && (
                           <ul className="collapsible__content">
-                            <li className="inner__list"> - Real Analysis</li>
-                            <li className="inner__list"> - Operations Research: Probabilistic Models </li>
-                            <li className="inner__list"> - Abstract Algebra</li>
-                            <li className="inner__list"> - Introduction to Computational Linear Algebra</li>
-                            <li className="inner__list"> - Honors Linear Algebra</li>
-                            <li className="inner__list"> - Applied Partial Differential Equations</li>
-                            <li className="inner__list"> - Honors Multivariable Calculus</li>
-                            <li className="inner__list"> - Honors Statistical Inference</li>
-                            <li className="inner__list"> - Applied Ordinary Differential Equations</li>
+                            <li className="inner__list"> - APMA 2610 Recent Applications of Probability and Statistics</li>
+                            <li className="inner__list"> - MATH 1630 Real Analysis</li>
+                            <li className="inner__list"> - APMA 1690 Computational Probability and Statistics </li>
+                            <li className="inner__list"> - APMA 1200 Operations Research: Probabilistic Models </li>
+                            <li className="inner__list"> - MATH 1530 Abstract Algebra</li>
+                            <li className="inner__list"> - APMA 1170 Introduction to Computational Linear Algebra</li>
+                            <li className="inner__list"> - MATH 0540 Honors Linear Algebra</li>
+                            <li className="inner__list"> - APMA 0360 Applied Partial Differential Equations</li>
+                            <li className="inner__list"> - MATH 0350 Honors Multivariable Calculus</li>
+                            <li className="inner__list"> - APMA 1550 Honors Statistical Inference</li>
+                            <li className="inner__list"> - APMA 0350 Applied Ordinary Differential Equations</li>
                          </ul>
                         )}
                     </div>
@@ -72,9 +79,9 @@ const toggleSection = (section) => {
                         </button>
                         {openSection === 'other' && (
                           <ul className="collapsible__content">
-                            <li className="inner__list"> - Intermediate Microeconomics (Mathematics) </li>
-                            <li className="inner__list"> - Intermediate Macroeconomics </li>
-                            <li className="inner__list"> - The Border / La Frontera</li>
+                            <li className="inner__list"> - ECON 1130 Intermediate Microeconomics (Mathematics) </li>
+                            <li className="inner__list"> - ECON 1210 Intermediate Macroeconomics </li>
+                            <li className="inner__list"> - ETHN 0090 The Border / La Frontera</li>
                         </ul>
                         )}
                     </div>
