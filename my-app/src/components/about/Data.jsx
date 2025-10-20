@@ -1,5 +1,5 @@
 import React from "react";
-import CV from "../../assets/CV_Wanjia Fu.pdf";
+import CV from "../../assets/CV_Wanjia_Fu.pdf";
 
 const Data = () => {
     return (
