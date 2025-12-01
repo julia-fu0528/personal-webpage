@@ -17,7 +17,7 @@ const Data = () => {
             </p>
             <p className="about__description">
             I'm interested in vision and tactile sensing for contact-rich dexterous manipulation, 
-            dynamic models for robot learning, and human robot interactions.
+            robot learning, and human robot interactions.
             </p>
             <p className="about__description">
                 Outside of STEM, I love dancing and playing the drums. 
